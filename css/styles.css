@@ -12,7 +12,7 @@ header {
   grid-template-rows: 100px auto; }
 
 .background {
-  background-image: url(img/slika.jpg);
+  background-image: url(../img/slika.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
