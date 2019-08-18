@@ -1,0 +1,140 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial; }
+
+header {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px auto; }
+
+.background {
+  background-image: url(/img/apple-desk-digital-7358.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80vh;
+  z-index: -5; }
+
+.opacity {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80vh;
+  z-index: -5;
+  background-color: #b83f8f;
+  opacity: 0.7; }
+
+nav {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+nav ul {
+  display: flex; }
+  nav ul li {
+    margin: 20px;
+    list-style: none; }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem; }
+    nav ul li a:hover {
+      color: pink; }
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  background-color: rgba(255, 24, 63, 0.2); }
+
+.content {
+  grid-column: 2/span 2;
+  align-content: center;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center; }
+  .content h3 {
+    font-size: 2rem;
+    font-weight: lighter; }
+  .content h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    margin: 0; }
+  .content p {
+    margin: 5px; }
+  .content .btns {
+    display: flex; }
+  .content .blue-btn {
+    padding: 15px 30px;
+    background-color: #048eff;
+    display: inline-block;
+    border-radius: 40px;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: all ease 0.8s; }
+    .content .blue-btn:hover {
+      background: #0263e2; }
+  .content .dark-btn {
+    padding: 15px 30px;
+    background-color: #2D2D2D;
+    display: inline-block;
+    border-radius: 40px;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: all ease 0.8s; }
+    .content .dark-btn:hover {
+      background: #fff;
+      color: #2D2D2D; }
+
+.sec {
+  height: 600px;
+  background: #fad8de;
+  display: grid;
+  align-content: center; }
+
+.sec .container {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.card {
+  max-width: 300px;
+  height: 400px;
+  background: #fff;
+  box-shadow: 12px 11px 49px -21px rgba(0, 0, 0, 0.75); }
+  .card h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    text-align: center;
+    margin-top: 5px; }
+  .card p {
+    color: #2D2D2D;
+    text-align: center;
+    padding: 0 1rem; }
+  .card .icon {
+    height: 20%;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+    color: #0263e2;
+    margin-top: 10px; }
