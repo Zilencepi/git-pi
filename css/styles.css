@@ -263,6 +263,7 @@ nav ul {
     align-items: center;
     grid-column-gap: 40px; }
     .about .img {
+      margin-top: 1rem;
       width: 450px;
       height: 280px;
       background: url(../img/coder.jpg);
